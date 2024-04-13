@@ -1,0 +1,75 @@
+/* Custom CSS for Water Intake Tracker */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4a90e2; /* Blue background */
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffcc; /* Pale yellow container background */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+    margin-bottom: 20px;
+    color: #000; /* Black text */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: #000; /* Black text */
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"],
+input[type="phone-num"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* White input background */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700; /* Gold button background */
+    color: #4a90e2; /* Blue button text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Lighter gold button background on hover */
+}
+
+a {
+    margin-top: 20px;
+    color: #000; /* Black text */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

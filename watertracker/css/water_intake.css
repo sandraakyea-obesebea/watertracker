@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+}
+.navbar {
+    background-color: #007bff; /* Blue navbar background */
+}
+.navbar-brand {
+    color: white !important; /* White text color for navbar brand */
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* White text color for navbar links */
+}
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+.form-container h2 {
+    color: #007bff; /* Blue header text */
+    margin-bottom: 20px;
+}
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Grey border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.btn-primary {
+    background-color: #ffc107 !important; /* Yellow button background */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #ffca2c !important; /* Darker yellow on hover */
+}
